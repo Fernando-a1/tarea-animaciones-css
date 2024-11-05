@@ -1,0 +1,262 @@
+/*estilos universales*/
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 200vh;
+    flex-direction: column;
+}
+
+/*2d transform*/
+
+.section1 {
+    backdrop-filter: blur(5px);
+    margin: 12px;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.section1-1 {
+    margin: 12px;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #fa9dbc;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.section1-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1-1:hover {
+    transform: scale(1.1);
+}
+
+.section1-2 {
+    margin: 12px;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #fa9dbc;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.section1-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1-2:hover {
+    transform: scale(1.1);
+}
+
+.section1-3 {
+    margin: 12px;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #fa9dbc;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.section1-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1-3:hover {
+    transform: scale(1.1);
+}
+
+.section1-4 {
+    margin: 12px;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #fa9dbc;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.section1-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1-4:hover {
+    transform: scale(1.1);
+}
+
+.section1-5 {
+    margin: 12px;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #fa9dbc;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.section1-5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1-5:hover {
+    transform: scale(1.1);
+}
+
+/*3d transform*/
+
+.section2 {
+    backdrop-filter: blur(5px);
+    margin: 12px;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.section2-1 {
+    margin: 12px;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #fa9dbc;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: transform 1s;
+}
+
+.section2-1:hover {
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+
+
+.section2-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section2-2 {
+    margin: 12px;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #fa9dbc;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.section2-2:hover {
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+
+.section2-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section2-3 {
+    margin: 12px;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #fa9dbc;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.section2-3:hover {
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+
+.section2-3 img {   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section2-4 {   
+    margin: 12px;   
+    padding: 0;
+    border-radius: 20px;
+    background-color: #fa9dbc;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.section2-4:hover {
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+
+.section2-4 img {
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+}
+
+.section2-5 {
+    margin: 12px;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #fa9dbc;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.section2-5:hover {
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+
+.section2-5 img {   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
